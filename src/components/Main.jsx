@@ -16,6 +16,22 @@ export default function Main() {
                         <img src="../img/buy-comics-digital-comics.png" alt="Digital Comics" width="50" />
                         <span>DIGITAL COMICS</span>
                     </div>
+                    <div className="d-flex align-items-center gap-3">
+                        <img src="../img/buy-comics-merchandise.png" alt="DC Merchandise" width="50" />
+                        <span>DC MERCHANDISE</span>
+                    </div>
+                    <div className="d-flex align-items-center gap-3">
+                        <img src="../img/buy-comics-subscriptions.png" alt="Subscription" width="50" />
+                        <span>SUBSCRIPTION</span>
+                    </div>
+                    <div className="d-flex align-items-center gap-3">
+                        <img src="../img/buy-comics-shop-locator.png" alt="Shop locator" width="40" />
+                        <span>COMIC SHOP LOCATOR</span>
+                    </div>
+                    <div className="d-flex align-items-center gap-3">
+                        <img src="../img/buy-dc-power-visa.svg" alt="Power Visa" width="50" />
+                        <span>DC POWER VISA</span>
+                    </div>
                 </div>
             </div>
 
