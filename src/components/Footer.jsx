@@ -19,7 +19,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="col-4">
-                                <h5>DC</h5>
+                                <h5 className="fw-bolder">DC</h5>
                                 <ul className="list-unstyled">
                                     <li>Terms Of Use</li>
                                     <li>Privacy Policy</li>
@@ -29,7 +29,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="col-4">
-                                <h5>SITES</h5>
+                                <h5 className="fw-bolder">SITES</h5>
                                 <ul className="list-unstyled">
                                     <li>DC</li>
                                     <li>MAD Magazine</li>
