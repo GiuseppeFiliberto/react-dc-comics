@@ -8,7 +8,13 @@
   font-family: "Open Sans", sans-serif;
 }
 
-:root {}
+:root {
+  --dc-primary: #0282f9;
+  --dc-dark: #303030;
+  --dc-darker: #000000;
+  --dc-light: #8a8a8a;
+  --dc-lighter: #ffffff;
+}
 
 ul {
   font-size: 0.8rem;
