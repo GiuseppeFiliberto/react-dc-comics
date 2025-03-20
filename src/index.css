@@ -33,8 +33,12 @@
   color: var(--dc-light);
 
   li {
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
   }
+}
+
+.bigger-logo {
+  top: -40px;
 }
 
 .bottom-footer {

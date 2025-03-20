@@ -5,7 +5,7 @@ export default function Footer() {
             <footer className="text-white" style={{ backgroundImage: "url(../img/footer-bg.jpg)", backgroundSize: "cover" }}>
                 <div className="container">
                     <div className="row justify-content-between">
-                        <div className="col-4 d-flex mt-5">
+                        <div className="col-4 d-flex mt-5 pb-5">
                             <div className="col-4">
                                 <h5 className="fw-bolder">DC COMICS</h5>
                                 <ul className="list-unstyled">
@@ -17,10 +17,20 @@ export default function Footer() {
                                     <li>Videos</li>
                                     <li>News</li>
                                 </ul>
+                                <h5 className="fw-bolder">SHOP</h5>
+                                <ul className="list-unstyled">
+                                    <li>Characters</li>
+                                    <li>Comics</li>
+                                </ul>
                             </div>
                             <div className="col-4">
                                 <h5 className="fw-bolder">DC</h5>
                                 <ul className="list-unstyled">
+                                    <li>Terms Of Use</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Ad Choices</li>
+                                    <li>Advertising</li>
+                                    <li>Jobs</li>
                                     <li>Terms Of Use</li>
                                     <li>Privacy Policy</li>
                                     <li>Ad Choices</li>
@@ -39,8 +49,8 @@ export default function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-8 d-flex justify-content-center">
-                            <img src="../img/dc-logo-bg.png" alt="Dc logo" srcset="" width="400" />
+                        <div className="col-8 d-flex justify-content-center position-relative overflow-hidden">
+                            <img src="../img/dc-logo-bg.png" alt="Dc logo" srcset="" width="490" className="position-absolute bigger-logo" />
                         </div>
                     </div>
 
