@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 
-
+/* #startregion utilties */
 * {
   margin: 0;
   padding: 0;
@@ -16,8 +16,14 @@
   --dc-lighter: #ffffff;
 }
 
+/* #endregion utilties */
+
 ul {
   font-size: 0.8rem;
   font-weight: 700;
   gap: 1.3rem;
+}
+
+.blue-banner-info {
+  background-color: var(--dc-primary);
 }
