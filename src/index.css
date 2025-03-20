@@ -18,7 +18,7 @@
 
 /* #endregion utilties */
 
-ul {
+.nav-ul {
   font-size: 0.8rem;
   font-weight: 700;
   gap: 1.3rem;
@@ -26,4 +26,22 @@ ul {
 
 .blue-banner-info {
   background-color: var(--dc-primary);
+}
+
+.col-4>ul {
+  font-size: 0.8rem;
+  color: var(--dc-light);
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.bottom-footer {
+  background-color: var(--dc-dark);
+
+  h5 {
+    color: var(--dc-primary);
+    font-weight: 700;
+  }
 }

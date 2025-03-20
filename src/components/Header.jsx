@@ -8,7 +8,7 @@ export default function Header() {
                         <a className="logo p-2" href="#">
                             <img src="../img/dc-logo.png" alt="DC Logo" width="80" />
                         </a>
-                        <ul className="navbar-nav ms-auto">
+                        <ul className="navbar-nav ms-auto nav-ul">
                             <li className="nav-item"><a className="nav-link" href="#">CHARACTERS</a></li>
                             <li className="nav-item"><a className="nav-link" href="#">COMICS</a></li>
                             <li className="nav-item"><a className="nav-link" href="#">MOVIES</a></li>
