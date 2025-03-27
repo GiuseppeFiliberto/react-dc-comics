@@ -12,7 +12,7 @@ export default function Main({ array }) {
                 <div className="container p-5">
                     <div className="row row-cols-1 row-cols-md-3 g-3">
                         {array.map((comic, index) => {
-                            return <Card key={index} src={comic.thumb} series={comic.series} title={comic.title} />
+                            return <Card key={index} src={comic.thumb} title={comic.title} price={comic.price} />
                         })}
                     </div>
                 </div>
