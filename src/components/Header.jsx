@@ -8,11 +8,11 @@ export default function Header({ links }) {
                         <a className="logo p-2" href="#">
                             <img src="../img/dc-logo.png" alt="DC Logo" width="80" />
                         </a>
-                        <ul>
+                        <ul className="navbar-nav ms-auto nav-ul p-3">
+
                             {links.map((link, index) => (
                                 <li key={index}><a href={link.url}>{link.text}</a></li>
                             ))}
-
 
                         </ul>
                     </div>

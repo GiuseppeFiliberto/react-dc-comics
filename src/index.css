@@ -29,12 +29,26 @@ a {
   font-weight: 700;
   gap: 1.3rem;
 
-  li>a:hover {
-    color: var(--dc-primary);
-  }
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid white;
+    height: 100%;
+    padding: 10px;
 
-  li:hover .bar-selector::after {
-    display: inline-block !important;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    &:hover {
+      border-bottom: 3px solid var(--dc-primary);
+
+      a {
+        color: var(--dc-primary);
+      }
+    }
   }
 }
 
