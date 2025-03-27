@@ -1,10 +1,20 @@
-export default function Main() {
+import Card from './card';
+
+
+
+export default function Main({ array }) {
+
 
     return (
         <>
+            {/* // Comics Section */}
             <div className="bg-dark">
-                <div className="container text-white py-5">
-                    <h4 className="fw-bolder">--&gt; Content goes here &lt;--</h4>
+                <div className="container p-5">
+                    <div className="row row-cols-1 row-cols-md-3 g-3">
+                        {array.map((comic, index) => {
+                            return <Card key={index} src={comic.thumb} series={comic.series} title={comic.title} />
+                        })}
+                    </div>
                 </div>
             </div>
 

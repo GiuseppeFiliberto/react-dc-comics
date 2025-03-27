@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Header({ links }) {
 
     return (
         <>
@@ -8,18 +8,11 @@ export default function Header() {
                         <a className="logo p-2" href="#">
                             <img src="../img/dc-logo.png" alt="DC Logo" width="80" />
                         </a>
-                        <ul className="navbar-nav ms-auto nav-ul p-3">
-                            <li><a href="#">CHARACTERS</a></li>
-                            <li><a href="#">COMICS</a></li>
-                            <li><a href="#">MOVIES</a></li>
-                            <li><a href="#">CHARACTERS</a></li>
-                            <li><a href="#">TV</a></li>
-                            <li><a href="#">GAMES</a></li>
-                            <li><a href="#">COLLECTIBLES</a></li>
-                            <li><a href="#">VIDEOS</a></li>
-                            <li><a href="#">FANS</a></li>
-                            <li><a href="#">NEWS</a></li>
-                            <li><a href="#">SHOP</a></li>
+                        <ul>
+                            {links.map((link, index) => (
+                                <li key={index}><a href={link.url}>{link.text}</a></li>
+                            ))}
+
 
                         </ul>
                     </div>
